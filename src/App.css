@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.nav-container nav{
+  background-color: rgb(14, 9, 9)!;
+}
+
+.main {
+  background-color:rgb(162, 219, 220);
+  border: 1px solid black;
+  height: 80vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.loginbox, .signupbox {
+  background-color: rgb(16, 125, 122);
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  gap: 40px;
+}
+
+.inputchild {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputbox {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.inputbox input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
+}
+.inputbox input:hover {
+  background-color: rgb(138, 219, 229);
+}
+.inputbox input:focus {
+  background-color: #19b9f8;
+}
+.main button {
+  border: 1px solid black;
+  background-color: rgb(112, 170, 232);
+  border-radius: 10px;
+}
+.main button:hover {
+  background-color: rgb(60, 60, 236);
+}
+.main button:active {
+  background-color: rgb(60, 60, 236);
+  transform: scale(.98);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  
+}
+footer div a {
+  margin-inline: 20px;
+}
